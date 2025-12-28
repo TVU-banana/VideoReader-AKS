@@ -1,0 +1,14 @@
+# 核心视觉处理 (包含算法优化所需的 head-less 版本，更适合服务器/容器)
+opencv-python>=4.8.0
+
+# 数学计算与矩阵操作
+numpy>=1.24.0
+
+# 阿里云 DashScope 多模态大模型 SDK (用于调用 Qwen3-VL)
+dashscope>=1.14.0
+
+# 基础网络请求支持
+requests>=2.31.0
+
+# 视频解码优化工具 (可选，建议安装以提升 AKS 性能)
+decord>=0.6.0
