@@ -1,5 +1,6 @@
 # 项目架构（Project Architecture）
 
+``
 VideoReader-AKS/
 ├── core/
 │   ├── aks_sampler.py      # 自适应采样算法（核心逻辑）
@@ -11,6 +12,7 @@ VideoReader-AKS/
 ├── data/                   # 测试样本，此处用于存放测试视频
 ├── main.py                 # 全链路流水线入口
 └── requirements.txt        # dashscope, opencv-python, numpy, etc.
+``
 
 # 性能表现 (Benchmark)
 
